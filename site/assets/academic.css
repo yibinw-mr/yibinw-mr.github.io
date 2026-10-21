@@ -31,7 +31,7 @@
 .eyebrow,.research-tag,.entry-meta,.talk .status{color:var(--muted);text-transform:none;letter-spacing:0;font-size:12px;font-weight:normal}
 .hero{padding:50px 0 40px;gap:30px}
 .hero h1{color:var(--ink);font-weight:500}
-.hero .intro{font-size:16px;line-height:1.75}
+.hero .intro{font-size:16px;line-height:1.75;color:var(--blue)}
 .hero .intro strong{color:inherit;font-weight:normal}
 .profile-links{margin-top:20px;font-size:13px}
 .profile-links a{color:var(--blue);border:0}
