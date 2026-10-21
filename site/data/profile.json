@@ -10,9 +10,9 @@
   "repository": "https://github.com/yibinw-mr/yibinw-mr.github.io",
   "updated": "October 2026",
   "education": [
-    {"degree": "Ph.D.", "field": "Materials Science and Engineering", "institution": "The Chinese University of Hong Kong, Shenzhen", "dates": "2021–2026", "detail": "Supervisor: Prof. Jiangfan Yu", "thesis": "Bio-inspired Medical Microrobots: Locomotion, Adaptability and Biomedical Applications"},
-    {"degree": "M.S.", "field": "Materials Science", "institution": "Carnegie Mellon University", "dates": "2018–2019", "detail": "College of Engineering"},
-    {"degree": "B.Eng.", "field": "Materials Processing", "institution": "Harbin Institute of Technology, Weihai", "dates": "2014–2018", "detail": "School of Materials Science and Engineering"}
+    {"degree": "Ph.D.", "field": "Materials Science and Engineering", "institution": "The Chinese University of Hong Kong, Shenzhen", "emblem": "/assets/education/cuhk-shenzhen.png", "emblem_style": "cuhk", "dates": "2021–2026", "detail": "Supervisor: Prof. Jiangfan Yu", "thesis": "Bio-inspired Medical Microrobots: Locomotion, Adaptability and Biomedical Applications"},
+    {"degree": "M.S.", "field": "Materials Science", "institution": "Carnegie Mellon University", "emblem": "/assets/education/cmu-seal.jpg", "emblem_style": "cmu", "dates": "2018–2019", "detail": "College of Engineering"},
+    {"degree": "B.Eng.", "field": "Materials Processing", "institution": "Harbin Institute of Technology, Weihai", "emblem": "/assets/education/hit-seal.jpg", "emblem_style": "hit", "dates": "2014–2018", "detail": "School of Materials Science and Engineering"}
   ],
   "awards": [
     {"year": "2024", "name": "Best Conference Student Paper Award", "organization": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"},

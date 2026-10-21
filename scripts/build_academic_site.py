@@ -87,8 +87,8 @@ def heading(number, title, link=''):
 
 
 def education():
-    return ''.join(f'''<article class="education-entry"><div class="entry-meta">{esc(e['degree'])} · {esc(e['dates'])}</div><h3>{esc(e['institution'])}</h3><p>{esc(e['field'])}</p><p>{esc(e['detail'])}</p>''' +
-                   (f'<p class="thesis">Thesis: {esc(e["thesis"])}</p>' if e.get('thesis') else '') + '</article>' for e in PROFILE['education'])
+    return ''.join(f'''<article class="education-entry"><div class="education-emblem education-emblem--{esc(e["emblem_style"])}"><img src="{esc(e["emblem"])}" alt="{esc(e["institution"])} emblem" width="64" height="64" loading="lazy"></div><div class="education-copy"><div class="entry-meta">{esc(e['degree'])} · {esc(e['dates'])}</div><h3>{esc(e['institution'])}</h3><p>{esc(e['field'])}</p><p>{esc(e['detail'])}</p>''' +
+                   (f'<p class="thesis">Thesis: {esc(e["thesis"])}</p>' if e.get('thesis') else '') + '</div></article>' for e in PROFILE['education'])
 
 
 def awards():
@@ -115,7 +115,7 @@ def home():
     <div class="featured-study"><div><h3 class="featured-heading">Featured Study</h3><p class="featured-meta">Science Advances, 2026</p><h4>CiliaVine</h4><p>A ciliated soft millirobot integrates catheter delivery with magnetic actuation to enable particle transport, local clearance and surface enrichment.</p><a class="text-link" href="https://sse.cuhk.edu.cn/en/article/2370">Read the research story ↗</a></div><figure class="research-figure"><img src="/assets/ciliavine.png" width="554" height="221" loading="lazy" alt="CiliaVine research schematic showing catheter delivery, magnetic actuation and multimodal particle manipulation within a blood vessel"><figcaption><a href="https://doi.org/10.1126/sciadv.aeg3333">DOI: 10.1126/sciadv.aeg3333</a></figcaption></figure></div></section>
     <section class="section" id="publications">{heading('02 / PUBLICATIONS', 'Selected work', '<a href="/publications/">All publications →</a>')}
     <p class="section-lead">All first- and co-first-author publications.</p><ul class="pub-list">{''.join(paper_item(p) for p in PAPERS if p.get('selected'))}</ul><p class="small-note">† Equal contribution · * Corresponding author</p></section>
-    <section class="section two-col"><div>{heading('03 / BACKGROUND', 'Education')}{education()}</div><div>{heading('04 / RECOGNITION', 'Honors & awards')}{awards()}</div></section>'''
+    <section id="education" class="section two-col"><div>{heading('03 / BACKGROUND', 'Education')}{education()}</div><div>{heading('04 / RECOGNITION', 'Honors & awards')}{awards()}</div></section>'''
     return shell('Magnetic micro- and nanorobotics', body)
 
 

@@ -101,3 +101,11 @@ The first research direction is “Bio-inspired microrobot design”, with the d
 Published on 21 October 2026 to `yibinw-mr/yibinw-mr.github.io`, at `https://yibinw-mr.github.io/`, after creating the free organization under the existing `ebeame` account. Canonical links, Open Graph URLs, Person URL, sitemap and robots.txt use the organization address. The author’s personal GitHub profile remains `ebeame`. The existing personal homepage repository is retained, but its Pages deployment was unpublished on 21 October 2026 and its `academic-pages.yml` workflow disabled. The old URL returns HTTP 404; only the organization homepage remains live. The public repository uses `master` and the Pages `workflow` build type. Deployment run `39559333331` succeeded, and all three public pages, sitemap, robots.txt and ownership verification file returned HTTP 200. Local `origin` points to the organization repository, while `legacy` retains the original personal repository.
 
 The hero eyebrow label and the visible research-image source note were removed at the author’s request. Image provenance remains recorded in this repository and the research cards retain their paper links. The full introductory research sentence uses the site’s muted blue.
+
+### Education emblems
+
+Original university assets added October 2026, displayed next to education entries. CSS frames only the crest/seal and its whitespace; source image files and original colors are retained.
+
+- CUHK-Shenzhen: https://www.cuhk.edu.cn/en — https://www.cuhk.edu.cn/sites/default/files/zh-hans_logo.png
+- Carnegie Mellon (one-color red seal): https://brand.cmu.edu/visual-identity/carnegie-mellon-trademarks/university-seal — https://live-cmu-brand.pantheonsite.io/sites/default/files/cmu-brand-files/inline-images/seal-r_01_0.jpg
+- Harbin Institute of Technology: https://civil.hit.edu.cn/2018/0420/c9283a204875/page.htm — https://civil.hit.edu.cn/_upload/article/images/8e/b7/7d0c258340adaed249946ea9b260/7bf25826-2168-4043-97ed-050eb11ef316.jpg

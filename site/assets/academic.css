@@ -68,3 +68,14 @@
 .featured-study .featured-meta{font-size:12px;margin:0 0 8px}
 .featured-study h4{font-size:21px;font-weight:500;line-height:1.3;margin:0 0 12px}
 @media(max-width:650px){.featured-study .featured-heading{font-size:25px}}
+
+/* University emblems beside the education entries; original source files retained. */
+.education-entry{display:grid;grid-template-columns:64px minmax(0,1fr);gap:20px;align-items:start}
+.education-copy{min-width:0}
+.education-entry h3{font-size:19px}
+.education-emblem{position:relative;width:64px;height:64px;overflow:hidden;margin-top:5px;background:#fff}
+.education-emblem img{position:absolute;display:block;max-width:none;object-fit:contain}
+.education-emblem--cuhk img{width:544.5%;height:78.125%;left:0;top:10.9375%}
+.education-emblem--cmu img{width:206.3%;height:140.25%;left:-53.15%;top:-20.125%}
+.education-emblem--hit img{width:112%;height:112%;left:-6%;top:-6%}
+@media(max-width:650px){.education-entry{grid-template-columns:56px minmax(0,1fr);gap:15px}.education-emblem{width:56px;height:56px}.education-entry h3{font-size:19px}}
