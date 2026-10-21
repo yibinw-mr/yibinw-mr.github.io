@@ -94,3 +94,7 @@ The previously prepared Strider montage (`strider-jump-abstract.gif` and `.jpg`)
 ## Labels
 
 The first research direction is “Bio-inspired microrobot design”, with the descriptor “Robot design & Adaptive locomotion”. “Featured Study” is a heading, followed by journal/year and CiliaVine. The animation's visible caption has been removed while its accessible label and pause control remain. The shared Contact area on all pages contains only its heading and email link.
+
+## Organization homepage migration
+
+The prepared deployment target is `yibinw-mr/yibinw-mr.github.io`, at `https://yibinw-mr.github.io/`. Canonical links, Open Graph URLs, Person URL, sitemap and robots.txt use the organization address. The author’s personal GitHub profile remains `ebeame`. The existing personal homepage repository is retained. Create the free organization, create its public homepage repository, push `master`, and configure Pages with the `workflow` build type before treating the new address as live.

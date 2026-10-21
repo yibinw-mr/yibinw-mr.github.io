@@ -12,7 +12,7 @@ SOURCE = ROOT / 'site'
 OUT = ROOT / 'dist'
 PROFILE = json.loads((SOURCE / 'data/profile.json').read_text())
 PAPERS = json.loads((SOURCE / 'data/publications.json').read_text())
-SITE_URL = 'https://ebeame.github.io'
+SITE_URL = 'https://yibinw-mr.github.io'
 
 
 def esc(value):
