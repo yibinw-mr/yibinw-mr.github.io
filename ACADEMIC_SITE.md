@@ -2,9 +2,10 @@
 
 ## Repository selection
 
-- Active project: `ebeame/ebeame.github.io`, default branch `master`, last existing commit `17e88fc` (5 May 2026, UTC+8).
+- Active project: `yibinw-mr/yibinw-mr.github.io`, default branch `master`.
+- Original personal project retained: `ebeame/ebeame.github.io`; initial existing commit `17e88fc` (5 May 2026, UTC+8).
 - Earlier project: `ebeame/ebeame_pre.github.io`, last existing commit `869d8db` (12 April 2026, UTC+8); contains only a README.
-- Publication branch: `publish-academic-homepage`; the local drafting history is retained on `improve-academic-homepage`.
+- Current local branch: `migrate-yibinw-mr`, tracking the organization repository’s `master`; the earlier publication branch is `publish-academic-homepage`.
 
 ## Content
 
@@ -47,7 +48,7 @@ The generated public routes are `/`, `/publications/` and `/talks/`. No CV page,
 
 The `.github/workflows/academic-pages.yml` workflow builds and validates the site, uploads `dist/`, and deploys it with GitHub Pages. It runs on pushes to `master` and supports manual dispatch.
 
-For the first deployment, set the repository's **Settings → Pages → Build and deployment → Source** to **GitHub Actions**. Merge this branch into `master` or run the workflow manually on this branch after the source is set. The production address is `https://ebeame.github.io/`.
+For the first deployment, set the repository's **Settings → Pages → Build and deployment → Source** to **GitHub Actions**. Merge this branch into `master` or run the workflow manually on this branch after the source is set. The production address is `https://yibinw-mr.github.io/`.
 
 This URL identifies the intended destination; deployment is confirmed only after the workflow succeeds. Do not publish the repository root as a static artifact: it contains the retained template sources.
 
@@ -59,7 +60,7 @@ Browser checks performed locally: responsive navigation, publication text search
 
 ## Publication
 
-Published to `https://ebeame.github.io/` through the repository’s GitHub Actions deployment. The homepage and footer GitHub links point to `https://github.com/ebeame/ebeame.github.io`; Person structured data retains the author’s GitHub profile. GitHub Pages uses the `workflow` build type.
+Published to `https://yibinw-mr.github.io/` through the repository’s GitHub Actions deployment. The homepage and footer GitHub links point to `https://github.com/yibinw-mr/yibinw-mr.github.io`; Person structured data retains the author’s GitHub profile. GitHub Pages uses the `workflow` build type.
 
 ## Research illustrations, second version
 
@@ -97,4 +98,4 @@ The first research direction is “Bio-inspired microrobot design”, with the d
 
 ## Organization homepage migration
 
-The prepared deployment target is `yibinw-mr/yibinw-mr.github.io`, at `https://yibinw-mr.github.io/`. Canonical links, Open Graph URLs, Person URL, sitemap and robots.txt use the organization address. The author’s personal GitHub profile remains `ebeame`. The existing personal homepage repository is retained. Create the free organization, create its public homepage repository, push `master`, and configure Pages with the `workflow` build type before treating the new address as live.
+Published on 21 October 2026 to `yibinw-mr/yibinw-mr.github.io`, at `https://yibinw-mr.github.io/`, after creating the free organization under the existing `ebeame` account. Canonical links, Open Graph URLs, Person URL, sitemap and robots.txt use the organization address. The author’s personal GitHub profile remains `ebeame`. The existing personal homepage repository is retained. The public repository uses `master` and the Pages `workflow` build type. Deployment run `39559333331` succeeded, and all three public pages, sitemap, robots.txt and ownership verification file returned HTTP 200. Local `origin` points to the organization repository, while `legacy` retains the original personal repository.
